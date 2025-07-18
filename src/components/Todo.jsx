@@ -73,7 +73,7 @@ export function Todo({ items, deleteItem, updateStatusItem }) {
           </span>
         </div>
       </div>
-      <div className="w-80 text-sm flex gap-5 items-center justify-center px-5 py-4 bg-white text-[#9394a5ff] z-20 shadow-xl rounded-md md:hidden transition-colors duration-700">
+      <div className="w-80 text-sm flex gap-5 items-center justify-center px-5 py-4 bg-white dark:bg-[#25273cff] text-[#9394a5ff] dark:text-[#777a92ff] z-20 shadow-xl rounded-md md:hidden transition-colors duration-700">
         <span
           onClick={() => {
             setWhatToShow(1);
