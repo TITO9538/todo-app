@@ -8,7 +8,7 @@ export function NewTodo({ handleSubmit }) {
   }, [handleSubmit])
 
   return (
-    <div className="w-80 px-5 py-4 bg-white dark:bg-[#25273cff] text-[#484b6aff] dark:text-[#cacde8ff] text-xs rounded-md z-20 md:w-130 md:text-lg transition-colors duration-500">
+    <div className="w-80 px-5 py-4 dark:shadow-xl/30 bg-white dark:bg-[#25273cff] text-[#484b6aff] dark:text-[#cacde8ff] text-xs rounded-md z-20 md:w-130 md:text-lg transition-colors duration-500">
       <form onSubmit={handleSubmit} className="flex gap-3">
         <button
           type="submit"
