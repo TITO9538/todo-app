@@ -31,10 +31,10 @@ export function DarkMode() {
       aria-label="Toggle Theme"
       className="hover:scale-110 transition-transform duration-300 p-2">
       {/* MOON ICON (Visible en dark mode) */}
-      <img src="../../public/images/icon-moon.svg" alt="Moon" className={`w-6 h-6 ${isDark ? "hidden" : "inline-block"}`}/>
+      <img src="../../images/icon-moon.svg" alt="Moon" className={`w-6 h-6 ${isDark ? "hidden" : "inline-block"}`}/>
 
       {/* SUN ICON (Visible en light mode) */}
-      <img src="../../public/images/icon-sun.svg" alt="Sun" className={`w-6 h-6 ${isDark ? "inline-block" : "hidden"}`}/>
+      <img src="../../images/icon-sun.svg" alt="Sun" className={`w-6 h-6 ${isDark ? "inline-block" : "hidden"}`}/>
     </button>
   );
 }
